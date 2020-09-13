@@ -20,6 +20,15 @@ body {
 	font-family: var(--secondary-font);
 }
 
+/*Experimental Colouring on H2*/
+
+h2 {
+	border-width: 0 0 7px 0;
+	border-style: dashed;
+	padding-bottom: 0 !important;
+	border-color: var(--logo-primary-color);
+}
+
 .key-section {
 	padding: 50px 50px 50px 50px;
 }

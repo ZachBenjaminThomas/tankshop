@@ -74,6 +74,20 @@ body {
 
 /*Contact Us*/
 
+/*Products*/
+.brand-box {
+	width: 30%;
+	display: inline-block;
+	text-align: center;
+	padding-top: auto;
+	padding-bottom: auto;
+}
+
+.logo {
+	width: 80%;
+
+}
+
 /*Footer*/
 
 #footer {

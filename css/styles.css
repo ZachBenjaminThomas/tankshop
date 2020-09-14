@@ -135,3 +135,12 @@ body {
 	}
 
 }
+
+/*Tweaks for Wide Screens*/
+
+@media (min-width: 1200px) {
+
+	.product-card {
+		max-width: 48.5%;
+	}
+}

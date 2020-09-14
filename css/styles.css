@@ -42,7 +42,7 @@ body {
 }
 
 .poster-image {
-	width: 50%;
+	width: 50%; 
 }
 
 .primary-color-section {
@@ -85,7 +85,7 @@ body {
 
 /*Products*/
 .brand-box {
-	width: 30%;
+	width: 32%;
 	display: inline-block;
 	text-align: center;
 	padding-top: auto;
@@ -100,7 +100,7 @@ body {
 /*Footer*/
 
 #footer {
-	padding: 10px 0 0 5px;
+	padding: 10px 0 0 10px;
 }
 
 /*Tweaks for Mobile*/

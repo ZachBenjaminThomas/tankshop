@@ -88,18 +88,14 @@ body {
 
 }
 
-.product-card {
+/*.product-card {
 	max-width: 1000px;
-}
-
-.product-card img {
-	max-width: 400px;
-}
+}*/
 
 /*Footer*/
 
 #footer {
-	padding: 10px 0 0 10px;
+	padding: 10px 0 0 20px;
 }
 
 /*Tweaks for Mobile*/

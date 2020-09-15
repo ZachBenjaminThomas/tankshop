@@ -72,6 +72,18 @@ body {
 
 /*About Us*/
 
+.key-section h2 i {
+	color: var(--primary-txt-color);
+	float: right;
+	background-color: var(--logo-primary-color);
+	border-radius: 100%;
+	border-style: solid;
+	border-width: 2px;
+  	border-color: var(--logo-secondary-color);
+	padding: 7px;
+	font-size: 17px;
+}
+
 /*Contact Us*/
 
 /*Products*/

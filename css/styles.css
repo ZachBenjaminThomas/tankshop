@@ -75,6 +75,7 @@ body {
 /*Contact Us*/
 
 /*Products*/
+
 .brand-box {
 	width: 32%;
 	display: inline-block;
@@ -84,8 +85,12 @@ body {
 }
 
 .logo {
-	width: 80%;
+	max-width: 200px;
 
+}
+
+.filtered {
+	display: none;
 }
 
 /*Footer*/

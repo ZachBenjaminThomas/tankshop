@@ -105,6 +105,11 @@ body {
 	display: none;
 }
 
+.active-filter {
+	border-width: 10px;
+	border-color: black;
+}
+
 /*Footer*/
 
 #footer {

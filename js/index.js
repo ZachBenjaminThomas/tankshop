@@ -26,17 +26,23 @@ $(".filter").click(function() {
     var targetString = "";
     var noActiveFilters = $(".active-filter").length;
 
-    // for(var i=0;i<=noActiveFilters;i++) {
-    // 	targetString = targetString + "." + $(".active-filter").get(i).attr("target-filter");
-    // }
+    // 
     $(".active-filter").each(function() {
     	targetString += "." + $(this).attr("target-filter");
     })
 
 
    	// Make all cards disappear
-    $(".product-card").addClass("filtered");
+    if(targetString != "") {
 
-    // Allow items matching all filters to reappear.
-    $(targetString).removeClass("filtered"); // Consider animation here
-    })
+    	$(".product-card").addClass("filtered");
+
+    	// Allow items matching all filters to reappear.
+    	$(targetString).removeClass("filtered"); // Consider animation here
+
+    } else {
+
+    	$(".product-card").removeClass("filtered");
+
+    }
+ })

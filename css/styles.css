@@ -92,13 +92,10 @@ body {
 	width: 32%;
 	display: inline-block;
 	text-align: center;
-	padding-top: auto;
-	padding-bottom: auto;
 }
 
 .logo {
 	max-width: 200px;
-
 }
 
 .filtered {
@@ -106,8 +103,7 @@ body {
 }
 
 .active-filter {
-	border-width: 10px;
-	border-color: black;
+	background-color: var(--logo-primary-color);
 }
 
 /*Footer*/

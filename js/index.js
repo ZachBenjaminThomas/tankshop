@@ -42,6 +42,7 @@ $(".filter").click(function() {
 
     } else {
 
+    	// Make all cards reappear if no filters present
     	$(".product-card").removeClass("filtered");
 
     }

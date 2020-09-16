@@ -8,6 +8,22 @@ $(".filter").click(function() {
     // Mark the clicked item as an active filter
     $(this).toggleClass("active-filter");
 
+    // Deal with product type filters
+    if($(this).hasClass("product-filter")){
+        if($(".product-filter.active-filter").length > 1){
+            $(".product-filter").removeClass("active-filter");
+            $(this).addClass("active-filter");
+        }
+    }
+
+    // Deal with brand type filters
+    if($(this).hasClass("brand-filter")){
+        if($(".brand-filter.active-filter").length > 1){
+            $(".brand-filter").removeClass("active-filter");
+            $(this).addClass("active-filter");
+        }
+    }
+
     // Build up selector based on all currently selected filters.
     var targetString = "";
     var noActiveFilters = $(".active-filter").length;

@@ -107,12 +107,6 @@ body {
 
 /*Product Filters*/
 
-#product-filters .brand-box {
-	width: 32%;
-	display: inline-block;
-	text-align: center;
-}
-
 #product-filters .logo {
 	width: 90%;
 }

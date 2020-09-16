@@ -119,6 +119,12 @@ body {
 	background-color: var(--logo-primary-color);
 }
 
+/*Product Cards*/
+
+#product-cards {
+	min-height: 300px;
+}
+
 /*Footer*/
 
 #footer {

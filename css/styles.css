@@ -73,9 +73,9 @@ body {
 /*About Us*/
 
 .key-section h2 i {
-	color: var(--primary-txt-color);
 	background-color: var(--logo-primary-color);
 	border-radius: 100%;
+	color: var(--primary-txt-color);
 	padding: 7px;
 	margin: 5px;
 	font-size: 17px;
@@ -88,15 +88,32 @@ body {
 
 /*Contact Us*/
 
-/*Products*/
 
-.brand-box {
+/*Brand Showcase*/
+
+#brands .brand-box {
+	text-align: center;
+}
+
+#brands .logo {
+	max-width: 100%;
+}
+
+
+#bsa {
+	position: relative;
+	right: 15px;
+}
+
+/*Product Filters*/
+
+#product-filters .brand-box {
 	width: 32%;
 	display: inline-block;
 	text-align: center;
 }
 
-.logo {
+#product-filters .logo {
 	width: 90%;
 }
 
@@ -152,6 +169,10 @@ body {
 
 	.poster-image {
 		width: 100%;
+	}
+
+	#brands .logo {
+		max-width: 75%;
 	}
 
 }

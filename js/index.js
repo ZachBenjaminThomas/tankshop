@@ -11,3 +11,15 @@
 		this.firstElementChild.firstElementChild.style.color = getComputedStyle(document.documentElement).getPropertyValue("--secondary-bg-color");
 	})
 });
+
+// Filter Link Behaviour
+
+$(".filter").mouseenter(function(){
+	var type = $(this).attr("type");
+	$("[type='"+type+"']").not(this).animate({opacity: '0.2'}, 50);
+})
+
+$(".filter").mouseleave(function(){
+	var type = $(this).attr("type");
+	$("[type='"+type+"']").animate({opacity: '1'}, 50);
+})

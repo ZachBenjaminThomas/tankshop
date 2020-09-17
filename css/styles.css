@@ -46,6 +46,8 @@ body {
 	color: var(--secondary-txt-color);
 }
 
+/*Filter Buttons*/
+
 .filter {
 	transition: transform 0.5s, opacity 0.5s; /* Animation */
 }

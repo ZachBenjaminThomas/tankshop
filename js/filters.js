@@ -49,3 +49,13 @@ $(".filter").click(function() {
 
     }
  })
+
+
+// Parsing incoming URL strings to automatically apply filters
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+const target = urlParams.get('target')
+
+if(target != null) {
+    $("[target-filter='"+target+"']").click();
+}

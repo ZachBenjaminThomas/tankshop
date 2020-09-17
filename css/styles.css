@@ -46,6 +46,15 @@ body {
 	color: var(--secondary-txt-color);
 }
 
+.filter {
+	transition: transform 0.5s, opacity 0.5s; /* Animation */
+}
+
+.filter:hover {
+	transform: scale(1.05);
+	opacity: 0.8;
+}
+
 /*Title Section*/
 
 #title {

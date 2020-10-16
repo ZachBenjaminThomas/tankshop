@@ -16,9 +16,6 @@ var navBarHeight = $("#title").outerHeight();
 // When the user scrolls the page, execute myFunction
 window.onscroll = function(){ 
 
-	console.log("Y Offset " + pageYOffset);
-	console.log("Header Offset " + header.offset().top);
-
 	// Correction for expanded navbar
 	if(navBarHeight !== $("#title").outerHeight()){
 		navBarHeight = $("#title").outerHeight();
@@ -37,10 +34,10 @@ window.onscroll = function(){
 };
 
 // Corrections when window is resized
-window.onresize = function(){
+// window.onresize = function(){
 
-	originalPadding = parseInt($("#product-cards").css("padding-top"));
-	filtersHeight = parseInt($("#product-filters").outerHeight());
-}
+// 	originalPadding = parseInt($("#product-cards").css("padding-top"));
+// 	filtersHeight = parseInt($("#product-filters").outerHeight());
+// }
 
 

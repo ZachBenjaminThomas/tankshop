@@ -130,6 +130,10 @@ body {
 
 /*Product Filters*/
 
+#product-filters {
+	z-index: 999;
+}
+
 #product-filters .logo {
 	width: 90%;
 }
@@ -142,10 +146,16 @@ body {
 	background-color: var(--logo-primary-color);
 }
 
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+}
+
 /*Product Cards*/
 
 #product-cards {
-	min-height: 300px;
+	min-height: 500px;
 }
 
 .product-card {

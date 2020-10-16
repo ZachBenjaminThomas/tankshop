@@ -24,20 +24,24 @@ window.onscroll = function(){
 
 	// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
 	if (window.pageYOffset > headerOffset) {
-		header.addClass("sticky");
-		$("#product-cards").css("padding-top", filtersHeight + originalPadding);
+		if(!header.hasClass("sticky")){
+			header.addClass("sticky");
+			$("#product-cards").css("padding-top", filtersHeight + originalPadding);
+		}
 	} else {
-		header.removeClass("sticky");
-		$("#product-cards").css("padding-top", originalPadding);
+		if(header.hasClass("sticky")){
+			header.removeClass("sticky");
+			$("#product-cards").css("padding-top", originalPadding);
+		}
 	}
 
 };
 
 // Corrections when window is resized
-// window.onresize = function(){
+window.onresize = function(){
 
-// 	originalPadding = parseInt($("#product-cards").css("padding-top"));
-// 	filtersHeight = parseInt($("#product-filters").outerHeight());
-// }
+	originalPadding = parseInt($("#product-cards").css("padding-top"));
+	filtersHeight = parseInt($("#product-filters").outerHeight());
+}
 
 

@@ -155,7 +155,7 @@ body {
 /*Product Cards*/
 
 #product-cards {
-	min-height: 500px;
+	min-height: 2000px !important;
 }
 
 .product-card {

@@ -138,7 +138,7 @@ body {
 	width: 90%;
 }
 
-.filter {
+#product-filters .filter {
 	background-color: var(--logo-primary-color);
 	border-radius: 15px;
 	color: var(--primary-txt-color);

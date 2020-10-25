@@ -138,12 +138,19 @@ body {
 	width: 90%;
 }
 
+.filter {
+	background-color: var(--logo-primary-color);
+	border-radius: 15px;
+	color: var(--primary-txt-color);
+	text-align: center;
+}
+
 .filtered {
 	display: none;
 }
 
 .active-filter {
-	background-color: var(--logo-primary-color);
+	border: 2px solid var(--logo-secondary-color);
 }
 
 /* The sticky class is added to the header with JS when it reaches its scroll position */

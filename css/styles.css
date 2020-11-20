@@ -132,6 +132,31 @@ body {
 
 #product-filters {
 	z-index: 999;
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+}
+
+.filter-panel {
+	box-sizing: border-box;
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px;
+}
+
+.filter-border {
+	border: 3px solid white;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.filter-panel-title {
+	margin-top: -35px;
+	background-color: #838383;
+	width: fit-content;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 #product-filters .logo {
@@ -151,12 +176,6 @@ body {
 
 .active-filter {
 	border: 2px solid var(--logo-secondary-color);
-}
-
-/* The sticky class is added to the header with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0;
 }
 
 /*Product Cards*/

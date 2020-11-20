@@ -155,8 +155,8 @@ body {
 	margin-top: -35px;
 	background-color: #838383;
 	width: fit-content;
-    padding-left: 5px;
-    padding-right: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 #product-filters .logo {
@@ -165,9 +165,10 @@ body {
 
 #product-filters .filter {
 	background-color: var(--logo-primary-color);
-	border-radius: 15px;
 	color: var(--primary-txt-color);
 	text-align: center;
+	width: 50%;
+	display: inline-block;
 }
 
 .filtered {
@@ -238,6 +239,10 @@ body {
 
 	#brands .logo {
 		max-width: 90%;
+	}
+
+	.filter-panel {
+		width: 100%;
 	}
 
 }

@@ -46,29 +46,6 @@ body {
 	color: var(--secondary-txt-color);
 }
 
-/*Filter Buttons*/
-
-.filter {
-	transition: transform 0.5s, opacity 0.5s; /* Animation */
-}
-
-.filter:hover {
-	transform: scale(1.05);
-}
-
-/*Products Links*/
-
-#products a {
-	text-decoration: none;
-	color: inherit;
-}
-
-#brands a {
-	text-decoration: none;
-	color: inherit;
-	display: inline;
-}
-
 /*Title Section*/
 
 #title {
@@ -109,10 +86,36 @@ body {
 	margin-right: 10px;
 }
 
-/*Contact Us*/
+/*Products Links*/
 
+#products a {
+	text-decoration: none;
+	color: inherit;
+}
+
+#products .filter {
+	transition: transform 0.5s, opacity 0.5s; /* Animation */
+}
+
+#products .filter:hover {
+	transform: scale(1.05);
+}
 
 /*Brand Showcase*/
+
+#brands a {
+	text-decoration: none;
+	color: inherit;
+	display: inline;
+}
+
+#brands .filter {
+	transition: transform 0.5s, opacity 0.5s; /* Animation */
+}
+
+#brands .filter:hover {
+	transform: scale(1.05);
+}
 
 #brands .brand-box {
 	text-align: center;
@@ -127,6 +130,10 @@ body {
 	position: relative;
 	right: 15px;
 }
+
+/*Contact Us*/
+
+
 
 /*Product Filters*/
 
@@ -169,6 +176,12 @@ body {
 	text-align: center;
 	width: 50%;
 	display: inline-block;
+	padding: 2px;
+	transition: color 0.5s ease; /* Animation */
+}
+
+#product-filters .filter:hover {
+	color: var(--logo-secondary-color);
 }
 
 .filtered {
@@ -177,6 +190,39 @@ body {
 
 .active-filter {
 	border: 2px solid var(--logo-secondary-color);
+	padding: 0!important;
+}
+
+#product-filters .filter[target-filter="petroltank"] {
+	border-radius: 20px 0px 0px 0px;
+}
+
+#product-filters .filter[target-filter="oiltank"] {
+	border-radius: 0px 20px 0px 0px;
+}
+
+#product-filters .filter[target-filter="seat"] {
+	border-radius: 0px 0px 0px 20px;
+}
+
+#product-filters .filter[target-filter="others"] {
+	border-radius: 0px 0px 20px 0px;
+}
+
+#product-filters .filter[target-filter="honda"] {
+	border-radius: 20px 0px 0px 0px;
+}
+
+#product-filters .filter[target-filter="bsa"] {
+	border-radius: 0px 20px 0px 0px;
+}
+
+#product-filters .filter[target-filter="norton"] {
+	border-radius: 0px 0px 0px 20px;
+}
+
+#product-filters .filter[target-filter="ducati"] {
+	border-radius: 0px 0px 20px 0px;
 }
 
 /*Product Cards*/
@@ -245,6 +291,10 @@ body {
 		width: 100%;
 	}
 
+	#product-filters {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
 }
 
 /*Tweaks for Wide Screens*/

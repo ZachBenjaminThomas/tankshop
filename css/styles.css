@@ -138,10 +138,14 @@ body {
 /*Product Filters*/
 
 #product-filters {
-	z-index: 999;
 	position: -webkit-sticky; /* Safari */
 	position: sticky;
 	top: 0;
+	z-index: 999;
+}
+
+#product-cards {
+	min-height: 100vw;
 }
 
 .filter-panel {
@@ -185,7 +189,7 @@ body {
 }
 
 .filtered {
-	display: none;
+	display: none!important;
 }
 
 .active-filter {
@@ -226,10 +230,6 @@ body {
 }
 
 /*Product Cards*/
-
-#product-cards {
-	min-height: 2000px !important;
-}
 
 .product-card {
 	margin-left: 0.5rem!important;

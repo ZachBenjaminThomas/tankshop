@@ -306,6 +306,16 @@ body {
 
 }
 
+
+/* Handling Mobile Screens where the Filters title wraps */
+@media (max-width: 440px) {
+
+	#product-filters {
+		top: -120px;
+	}
+
+}
+
 /*Tweaks for Wide Screens*/
 
 @media (min-width: 1200px) {

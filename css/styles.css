@@ -46,6 +46,13 @@ body {
 	color: var(--secondary-txt-color);
 }
 
+#filler-section {
+	display: block;
+	width: 100%;
+	min-height: 15px;
+	background-color: var(--primary-bg-color);
+}
+
 /*Title Section*/
 
 #title {
@@ -140,8 +147,9 @@ body {
 #product-filters {
 	position: -webkit-sticky; /* Safari */
 	position: sticky;
-	top: 0;
+	top: -100px;
 	z-index: 999;
+	padding-bottom: 15px;
 }
 
 #product-cards {
@@ -292,9 +300,10 @@ body {
 	}
 
 	#product-filters {
-		padding-top: 10px;
-		padding-bottom: 10px;
+		top: -80px;
+		padding-bottom: 15px;
 	}
+
 }
 
 /*Tweaks for Wide Screens*/

@@ -79,8 +79,8 @@ $(".filter").click(function() {
     }
 
     // Return to top of product card section
-    if(startScreenPosition >= $("#title").height()){ 
-        window.scrollTo(0,$("#title").height());
+    if(startScreenPosition >= $("#title").height()){  
+        window.scrollTo(0,$("#title").height()+parseInt($("#product-filters").css("padding-top"))+50);
     }
     
  })

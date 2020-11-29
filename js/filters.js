@@ -87,8 +87,6 @@ $(".filter").click(function() {
     if(startScreenPosition >= mainTitleOffset + paddingOffset + subTitleOffset){  
         window.scrollTo(0,mainTitleOffset + paddingOffset+subTitleOffset+fillerOffset);
     }
-
-    $("#filler-section").innerHTML("mainTitleOffset");
     
  })
 

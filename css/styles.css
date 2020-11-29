@@ -189,7 +189,7 @@ body {
 	display: inline-block;
 	padding: 2px;
 	transition: color 0.5s ease; /* Animation */
-	text-transform: uppercase;
+/*	text-transform: uppercase;*/
 }
 
 .filter-panel.brands .filter {

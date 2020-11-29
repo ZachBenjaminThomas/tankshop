@@ -182,14 +182,22 @@ body {
 	width: 90%;
 }
 
-#product-filters .filter {
+.filter-panel .filter {
 	background-color: var(--logo-primary-color);
 	color: var(--primary-txt-color);
 	text-align: center;
-	width: 50%;
 	display: inline-block;
 	padding: 2px;
 	transition: color 0.5s ease; /* Animation */
+	text-transform: uppercase;
+}
+
+.filter-panel.brands .filter {
+	width: 33.333%;
+}
+
+.filter-panel.categories .filter {
+	width: 50%;
 }
 
 #product-filters .filter:hover {

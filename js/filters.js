@@ -79,8 +79,13 @@ $(".filter").click(function() {
     }
 
     // Return to top of product card section
-    if(startScreenPosition >= $("#title").height()){  
-        window.scrollTo(0,$("#title").height()+parseInt($("#product-filters").css("padding-top"))+50);
+    const mainTitleOffset = $("#title").height();
+    const paddingOffset = parseInt($("#product-filters").css("padding-top"));
+    const subTitleOffset = $("#product-filters h2").first().outerHeight();
+    const fillerOffset = $("#filler-section").height();
+
+    if(startScreenPosition >= mainTitleOffset + paddingOffset + subTitleOffset){  
+        window.scrollTo(0,mainTitleOffset + paddingOffset+subTitleOffset+fillerOffset);
     }
     
  })

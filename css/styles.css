@@ -93,6 +93,20 @@ body {
 	margin-right: 10px;
 }
 
+/* Our Process */
+
+.process-box {
+	padding: 0px;
+}
+
+.process-image {
+	width: 100%;
+}
+
+.process-description {
+	margin-top: 20px;
+}
+
 /*Products Links*/
 
 #products a {

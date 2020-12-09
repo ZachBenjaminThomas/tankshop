@@ -95,10 +95,6 @@ body {
 
 /* Our Process */
 
-.process-box {
-	padding: 0px;
-}
-
 .process-image {
 	width: 100%;
 }
@@ -152,9 +148,17 @@ body {
 	right: 15px;
 }
 
-/*Contact Us*/
+/* Pricing */
 
+#pricing td {
+	padding-right: 20px;
+}
 
+/* Contact Us */
+
+#map {
+	width: 100%;
+}
 
 /*Product Filters*/
 
@@ -203,7 +207,7 @@ body {
 	display: inline-block;
 	padding: 2px;
 	transition: color 0.5s ease; /* Animation */
-/*	text-transform: uppercase;*/
+	/*	text-transform: uppercase;*/
 }
 
 .filter-panel.brands .filter {

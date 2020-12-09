@@ -99,6 +99,10 @@ body {
 	width: 100%;
 }
 
+.process-box {
+	padding: 0;
+}
+
 .process-description {
 	margin-top: 20px;
 }
@@ -142,6 +146,10 @@ body {
 	max-width: 90%;
 }
 
+.brand-box {
+	padding: 0;
+}
+
 
 #bsa {
 	position: relative;
@@ -149,6 +157,10 @@ body {
 }
 
 /* Pricing */
+
+.prices-box {
+	padding: 0;
+}
 
 #pricing td {
 	padding-right: 20px;
@@ -158,6 +170,14 @@ body {
 
 #map {
 	width: 100%;
+}
+
+.map-box {
+	padding: 0;
+}
+
+.contacts-box {
+	padding: 0;
 }
 
 /*Product Filters*/

@@ -93,6 +93,11 @@ body {
 	margin-right: 10px;
 }
 
+#glenmidge {
+	width: 100%;
+	padding-bottom: 20px;
+}
+
 /* Our Process */
 
 .process-image {
@@ -205,7 +210,11 @@ body {
 .filter-border {
 	border: 3px solid white;
 	border-radius: 20px;
-	padding: 20px;
+	padding: 15px;
+}
+
+.filter-border div {
+	white-space: nowrap;
 }
 
 .filter-panel-title {
@@ -348,6 +357,10 @@ body {
 	#product-filters {
 		top: -80px;
 		padding-bottom: 15px;
+	}
+
+	.filter-border {
+		font-size: 0.9rem;
 	}
 
 }

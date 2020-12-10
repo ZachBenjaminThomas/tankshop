@@ -98,6 +98,10 @@ body {
 	padding-bottom: 20px;
 }
 
+#intro-description {
+	margin-top:20px;
+}
+
 /* Our Process */
 
 .process-image {
@@ -169,6 +173,11 @@ body {
 
 #pricing td {
 	padding-right: 20px;
+}
+
+#pricing table {
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 /* Contact Us */

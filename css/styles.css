@@ -93,7 +93,7 @@ body {
 	margin-right: 10px;
 }
 
-#glenmidge {
+#glenmidge, #john {
 	width: 100%;
 	padding-bottom: 20px;
 }
@@ -205,7 +205,7 @@ body {
 }
 
 #product-cards {
-	min-height: 100vw;
+	min-height: calc(100vh - 200px);
 }
 
 .filter-panel {
@@ -245,7 +245,14 @@ body {
 	display: inline-block;
 	padding: 2px;
 	transition: color 0.5s ease; /* Animation */
-	/*	text-transform: uppercase;*/
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Old versions of Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+	box-shadow: 0 0 50px -1px rgba(0,0,0,0.2);
+    cursor:pointer;
 }
 
 .filter-panel.brands .filter {
@@ -308,6 +315,28 @@ body {
 	margin-right: 0.5rem!important;
 	margin-bottom: 1rem!important;
 }
+
+/* Your Bikes */
+
+#yourbikes {
+	height: calc(100vh - 130px);
+	height: -o-calc(100vh - 130px); /* opera */
+	height: -webkit-calc(100vh - 130px); /* google, safari */
+	height: -moz-calc(100vh - 130px); /* firefox */
+}
+
+#maincarousel {
+	height: 100%;
+	text-align: center;
+	align-content: center;
+}
+
+.carouselimage {
+	max-width: 50%;
+	max-height: 50%;
+	align-content: center;
+}
+
 
 /*Footer*/
 

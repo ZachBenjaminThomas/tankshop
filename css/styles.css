@@ -319,10 +319,10 @@ body {
 /* Your Bikes */
 
 #yourbikes {
-	height: calc(100vh - 130px);
-	height: -o-calc(100vh - 130px); /* opera */
-	height: -webkit-calc(100vh - 130px); /* google, safari */
-	height: -moz-calc(100vh - 130px); /* firefox */
+	height: calc(100vh - 150px);
+	height: -o-calc(100vh - 150px); /* opera */
+	height: -webkit-calc(100vh - 150px); /* google, safari */
+	height: -moz-calc(100vh - 150px); /* firefox */
 }
 
 #maincarousel {
@@ -331,11 +331,14 @@ body {
 	align-content: center;
 }
 
-.carouselimage {
-	max-width: 50%;
-	max-height: 50%;
-	align-content: center;
+#maincarousel .carousel-item {
+	height: 100%;
 }
+
+#maincarousel .carousel-item img {
+	max-height: 100%;
+}
+
 
 
 /*Footer*/

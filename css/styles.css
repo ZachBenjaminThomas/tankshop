@@ -334,6 +334,7 @@ body {
 
 .carousel-inner {
 	height: 100%;
+	overflow: hidden;
 }
 
 #maincarousel .carousel-item {

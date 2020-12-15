@@ -319,10 +319,11 @@ body {
 /* Your Bikes */
 
 #yourbikes {
-	height: calc(100vh - 150px);
-	height: -o-calc(100vh - 150px); /* opera */
-	height: -webkit-calc(100vh - 150px); /* google, safari */
-	height: -moz-calc(100vh - 150px); /* firefox */
+	height: calc(100vh - 170px);
+	height: -o-calc(100vh - 170px); /* opera */
+	height: -webkit-calc(100vh - 170px); /* google, safari */
+	height: -moz-calc(100vh - 170px); /* firefox */
+	overflow: hidden;
 }
 
 #maincarousel {
@@ -333,6 +334,7 @@ body {
 
 #maincarousel .carousel-item {
 	height: 100%;
+	overflow: hidden;
 }
 
 #maincarousel .carousel-item img {

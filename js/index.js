@@ -23,3 +23,5 @@ $(".filter").mouseleave(function(){
 	var type = $(this).attr("type");
 	$("[type='"+type+"']").animate({opacity: '1'}, 50);
 })
+
+// Page Top Link Behaviour in Section Icons

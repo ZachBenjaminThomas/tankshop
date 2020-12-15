@@ -332,9 +332,19 @@ body {
 	align-content: center;
 }
 
+.carousel-inner {
+	height: 100%;
+}
+
 #maincarousel .carousel-item {
 	height: 100%;
 	overflow: hidden;
+}
+
+.carousel-item-title {
+	position: absolute;
+	left: 0;
+	right:0;
 }
 
 #maincarousel .carousel-item img {
@@ -342,9 +352,9 @@ body {
 }
 
 .carousel-caption {
-    position: relative;
-    left: 0;
-    top: 0;
+	position:absolute;
+	left:0;
+	right:0;
 }
 
 /*Footer*/

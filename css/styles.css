@@ -345,16 +345,22 @@ body {
 	position: absolute;
 	left: 0;
 	right:0;
+	z-index: 99;
 }
 
 #maincarousel .carousel-item img {
 	max-height: 100%;
+	width: 100%;
 }
 
 .carousel-caption {
 	position:absolute;
 	left:0;
 	right:0;
+}
+
+.image-sizer {
+	padding-top: 20px;
 }
 
 /*Footer*/

@@ -329,12 +329,6 @@ body {
 #maincarousel {
 	height: 100%;
 	text-align: center;
-	align-content: center;
-}
-
-.carousel-inner {
-	height: 100%;
-	overflow: hidden;
 }
 
 #maincarousel .carousel-item {
@@ -342,26 +336,29 @@ body {
 	overflow: hidden;
 }
 
-.carousel-item-title {
-	position: absolute;
-	left: 0;
-	right:0;
-	z-index: 99;
+#maincarousel .carousel-inner {
+	height: 100%;
+}
+
+#maincarousel .carousel-item-title {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.left-carousel-image, .right-carousel-image {
+	display: inline-block;
+	width: 50%;
 }
 
 #maincarousel .carousel-item img {
-	max-height: 100%;
-	width: 100%;
+
 }
 
-.carousel-caption {
+#maincarousel .carousel-caption {
 	position:absolute;
-	left:0;
-	right:0;
-}
-
-.image-sizer {
-	padding-top: 20px;
+	left: 0;
+	right: 0;
+	bottom: 0;
 }
 
 /*Footer*/
@@ -406,6 +403,10 @@ body {
 		padding: 35px 35px 35px 35px;
 	}
 
+	#yourbikes {
+		padding: 50px 50px 50px 50px;
+	}
+
 	.poster-image {
 		width: 100%;
 	}
@@ -425,6 +426,11 @@ body {
 
 	.filter-border {
 		font-size: 0.9rem;
+	}
+
+	.left-carousel-image, .right-carousel-image {
+		display: inline-block;
+		width: 100%;
 	}
 
 }

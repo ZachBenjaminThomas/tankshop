@@ -252,7 +252,7 @@ body {
 	-ms-user-select: none; /* Internet Explorer/Edge */
 	user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 	box-shadow: 0 0 50px -1px rgba(0,0,0,0.2);
-    cursor:pointer;
+	cursor:pointer;
 }
 
 .filter-panel.brands .filter {
@@ -348,21 +348,19 @@ body {
 .left-carousel-image, .right-carousel-image {
 	display: inline-block;
 	width: 50%;
-	position:relative;
-	top: 20px;
-}
-
-#maincarousel .carousel-item img {
+	position: relative;
+	height: 80%;
+	vertical-align: middle;
 
 }
 
-@media (min-width: 768px) {
-
-	.scalable {
-		width: 100%;
-		max-width: 500px;
-	}
-
+#maincarousel .carousel-item img { 
+	position: absolute;  
+	top: 0;  
+	bottom: 0;  
+	left: 0;  
+	right: 0;  
+	margin: auto;
 }
 
 #maincarousel .carousel-caption {
@@ -379,6 +377,15 @@ body {
 }
 
 /*Tweaks for Mobile*/
+
+@media (min-width: 768px) {
+
+	.scalable {
+		width: 100%;
+		max-width: 600px;
+	}
+
+}
 
 @media (max-width: 768px) {
 
@@ -442,10 +449,15 @@ body {
 	.left-carousel-image, .right-carousel-image {
 		width: 100%;
 		top: 0px;
+		height: 40%;
 	}
 
 	.scalable-mobile {
 		width: 100%;
+	}
+
+	#mvc441 {
+		padding-bottom: 80px;
 	}
 
 }

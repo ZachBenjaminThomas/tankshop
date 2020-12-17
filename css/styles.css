@@ -319,10 +319,10 @@ body {
 /* Your Bikes */
 
 #yourbikes {
-	height: calc(100vh - 170px);
-	height: -o-calc(100vh - 170px); /* opera */
-	height: -webkit-calc(100vh - 170px); /* google, safari */
-	height: -moz-calc(100vh - 170px); /* firefox */
+	height: calc(100vh - 40px);
+	height: -o-calc(100vh - 40px); /* opera */
+	height: -webkit-calc(100vh - 40px); /* google, safari */
+	height: -moz-calc(100vh - 40px); /* firefox */
 	overflow: hidden;
 }
 

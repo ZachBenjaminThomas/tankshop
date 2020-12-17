@@ -124,7 +124,7 @@ $(document).scroll(function(){
             $("#product-filters").css("padding-right","50px")
         }
     }else{
-        const targetPaddingReduction = 15;
+        const targetPaddingReduction = 20;
         const effectLimit = 50;
         const startPoint = $("#title").outerHeight() + parseInt($("#product-filters").css("padding-top")) + $("#product-filters h2").first().outerHeight();
         
@@ -136,8 +136,8 @@ $(document).scroll(function(){
                 $("#product-filters").css("padding-left",String(currentPadding)+"px");
                 $("#product-filters").css("padding-right",String(currentPadding)+"px");
             }else{
-                $("#product-filters").css("padding-left","20px")
-                $("#product-filters").css("padding-right","20px")
+                $("#product-filters").css("padding-left","15px")
+                $("#product-filters").css("padding-right","15px")
             }
         }else{
             $("#product-filters").css("padding-left","35px")

@@ -440,8 +440,8 @@ body {
 	}
 
 	.left-carousel-image, .right-carousel-image {
-		display: inline-block;
 		width: 100%;
+		top: 0px;
 	}
 
 	.scalable-mobile {

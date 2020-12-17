@@ -131,8 +131,8 @@ $(document).scroll(function(){
         if(startPoint <= $(document).scrollTop()){
             let differential = $(document).scrollTop() - startPoint;
             console.log(differential)
-            if(differential < effectLimit){
-                let currentPadding = 20 + (((effectLimit - differential)/effectLimit)*targetPaddingReduction)
+            if(differential <= effectLimit){
+                let currentPadding = 15 + (((effectLimit - differential)/effectLimit)*targetPaddingReduction)
                 $("#product-filters").css("padding-left",String(currentPadding)+"px");
                 $("#product-filters").css("padding-right",String(currentPadding)+"px");
             }else{

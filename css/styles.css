@@ -348,9 +348,20 @@ body {
 .left-carousel-image, .right-carousel-image {
 	display: inline-block;
 	width: 50%;
+	position:relative;
+	top: 20px;
 }
 
 #maincarousel .carousel-item img {
+
+}
+
+@media (min-width: 768px) {
+
+	.scalable {
+		width: 100%;
+		max-width: 500px;
+	}
 
 }
 
@@ -404,7 +415,7 @@ body {
 	}
 
 	#yourbikes {
-		padding: 50px 50px 50px 50px;
+		padding: 35px 35px 50px 35px;
 	}
 
 	.poster-image {
@@ -430,6 +441,10 @@ body {
 
 	.left-carousel-image, .right-carousel-image {
 		display: inline-block;
+		width: 100%;
+	}
+
+	.scalable-mobile {
 		width: 100%;
 	}
 

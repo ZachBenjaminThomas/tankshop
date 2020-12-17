@@ -99,3 +99,49 @@ const target = urlParams.get('target')
 if(target != null) {
     $("[target-filter='"+target+"']").click();
 }
+
+// Scroll behaviour to widen the filter bar after page has scrolled
+$(document).scroll(function(){
+
+    if($( window ).width() > 768){
+        const targetPaddingReduction = 30;
+        const effectLimit = 25;
+        const startPoint = $("#title").outerHeight() + parseInt($("#product-filters").css("padding-top")) + $("#product-filters h2").first().outerHeight();
+        
+        if(startPoint <= $(document).scrollTop()){
+            let differential = $(document).scrollTop() - startPoint;
+            console.log(differential)
+            if(differential < effectLimit){
+                let currentPadding = 20 + (((effectLimit - differential)/effectLimit)*targetPaddingReduction)
+                $("#product-filters").css("padding-left",String(currentPadding)+"px");
+                $("#product-filters").css("padding-right",String(currentPadding)+"px");
+            }else{
+                $("#product-filters").css("padding-left","20px")
+                $("#product-filters").css("padding-right","20px")
+            }
+        }else{
+            $("#product-filters").css("padding-left","50px")
+            $("#product-filters").css("padding-right","50px")
+        }
+    }else{
+        const targetPaddingReduction = 15;
+        const effectLimit = 50;
+        const startPoint = $("#title").outerHeight() + parseInt($("#product-filters").css("padding-top")) + $("#product-filters h2").first().outerHeight();
+        
+        if(startPoint <= $(document).scrollTop()){
+            let differential = $(document).scrollTop() - startPoint;
+            console.log(differential)
+            if(differential < effectLimit){
+                let currentPadding = 20 + (((effectLimit - differential)/effectLimit)*targetPaddingReduction)
+                $("#product-filters").css("padding-left",String(currentPadding)+"px");
+                $("#product-filters").css("padding-right",String(currentPadding)+"px");
+            }else{
+                $("#product-filters").css("padding-left","20px")
+                $("#product-filters").css("padding-right","20px")
+            }
+        }else{
+            $("#product-filters").css("padding-left","35px")
+            $("#product-filters").css("padding-right","35px")
+        } 
+    }
+})

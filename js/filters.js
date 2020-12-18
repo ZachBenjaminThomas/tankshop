@@ -105,7 +105,7 @@ $(document).scroll(function(){
 
     if($( window ).width() > 768){
         const targetPaddingReduction = 30;
-        const effectLimit = 25;
+        const effectLimit = 50;
         const startPoint = $("#title").outerHeight() + parseInt($("#product-filters").css("padding-top")) + $("#product-filters h2").first().outerHeight();
         
         if(startPoint <= $(document).scrollTop()){

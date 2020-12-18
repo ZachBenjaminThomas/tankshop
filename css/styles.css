@@ -48,7 +48,6 @@ body {
 }
 
 .up-link {
-	background-color: var(--logo-primary-color);
 	border-radius: 100%;
 	color: var(--primary-txt-color);
 	padding: 7px;
@@ -60,8 +59,71 @@ body {
     left: 0px;
 }
 
-.up-link:hover { 
-	background-color: var(--logo-secondary-color);
+/* Tedious adjustments for each icon */
+
+#about-us .up-link {
+	left: 1px;
+	top: -1px;
+}
+
+#products .up-link {
+	left: 2px;
+	top: -1px;
+}
+
+#our-process .up-link {
+	left: 1px;
+	top: -1px;
+}
+
+#brands .up-link {
+	left: 2px;
+	top: -1px;
+}
+
+#custom .up-link {
+	left: 0px;
+	top: -1px;
+}
+
+#pricing .up-link {
+	left: 0px;
+	top: -1px;
+}
+
+#contact-us .up-link {
+	left: -1px;
+	top: -1px;
+}
+
+#exploreourproducts .up-link {
+	left: 2px;
+	top: -1px;
+}
+
+#yourbikes .up-link {
+	left: 2px;
+	top: -1px;
+}
+
+#oiltank .up-link {
+	left: 2px;
+	top: -1px;
+}
+
+#seat .up-link {
+	left: 2px;
+	top: -1px;
+}
+
+#others .up-link {
+	left: 2px;
+	top: -1px;
+}
+
+#petroltank .up-link {
+	left: 2px;
+	top: -1px;
 }
 
 .image-container {

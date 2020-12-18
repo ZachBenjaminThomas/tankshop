@@ -27,13 +27,13 @@ $(".filter").mouseleave(function(){
 // Page Top Link Behaviour in Section Icons
 
 $(".section-title").mouseenter(function(){
-	$(this).children(".section-icon").css("visibility","hidden")
+	$(this).children(".section-icon").css("color","var(--logo-primary-color)")
 	$(this).children(".up-link").css("display","inline")
 })
 
 $(".section-title").mouseleave(function(){
 	$(this).children(".up-link").css("display","none")
-	$(this).children(".section-icon").css("visibility","visible")
+	$(this).children(".section-icon").css("color","white")
 })
 
 $(".up-link").click(function(){

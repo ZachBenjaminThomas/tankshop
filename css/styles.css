@@ -20,6 +20,40 @@ body {
 	font-family: var(--secondary-font);
 }
 
+/* Link Styling */
+
+.primary-color-section a:link {
+  color: var(--primary-txt-color);
+}
+
+.primary-color-section a:visited {
+  color: var(--primary-txt-color);
+}
+
+.primary-color-section a:hover {
+  color: var(--primary-txt-color);
+}
+
+.primary-color-section a:active {
+  color: var(--primary-txt-color);
+}
+
+.secondary-color-section a:link {
+  color: var(--secondary-txt-color);
+}
+
+.secondary-color-section a:visited {
+  color: var(--secondary-txt-color);
+}
+
+.secondary-color-section a:hover {
+  color: var(--secondary-txt-color);
+}
+
+.secondary-color-section a:active {
+  color: var(--secondary-txt-color);
+}
+
 .key-section {
 	padding: 50px 50px 50px 50px;
 }
@@ -32,6 +66,9 @@ body {
 	position: relative;
 }
 
+.subtitle {
+	text-decoration: underline;
+}
 
 .section-icon {
 	background-color: var(--logo-primary-color);
@@ -250,6 +287,19 @@ body {
 }
 
 /* Pricing */
+
+.pricing-description {
+	margin-bottom: 30px;
+}
+
+#delivery-table {
+	width: 100%;
+	max-width: 600px;
+}
+
+.delivery-price {
+	text-align: right;
+}
 
 .prices-box {
 	padding: 0;

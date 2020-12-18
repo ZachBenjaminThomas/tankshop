@@ -28,6 +28,42 @@ body {
 	padding-bottom: 20px;
 }
 
+.section-title {
+	position: relative;
+}
+
+
+.section-icon {
+	background-color: var(--logo-primary-color);
+	border-radius: 100%;
+	color: var(--primary-txt-color);
+	padding: 7px;
+	margin: 5px;
+	font-size: 17px;
+	height: 100%;
+	display: inline;
+	position: relative;
+	bottom: 5px;
+	margin-right: 10px;
+}
+
+.up-link {
+	background-color: var(--logo-primary-color);
+	border-radius: 100%;
+	color: var(--primary-txt-color);
+	padding: 7px;
+	margin: 5px;
+	font-size: 17px;
+	display: none;
+	float: left;
+	position: absolute;
+    left: 0px;
+}
+
+.up-link:hover { 
+	background-color: var(--logo-secondary-color);
+}
+
 .image-container {
 	text-align: center;
 }
@@ -49,7 +85,7 @@ body {
 #filler-section {
 	display: block;
 	width: 100%;
-	min-height: 50px;
+	min-height: 15px;
 	background-color: var(--primary-bg-color);
 }
 
@@ -78,20 +114,6 @@ body {
 }
 
 /*About Us*/
-
-.key-section h2 i {
-	background-color: var(--logo-primary-color);
-	border-radius: 100%;
-	color: var(--primary-txt-color);
-	padding: 7px;
-	margin: 5px;
-	font-size: 17px;
-	height: 100%;
-	display: inline;
-	position: relative;
-	bottom: 5px;
-	margin-right: 10px;
-}
 
 #glenmidge, #john {
 	width: 100%;

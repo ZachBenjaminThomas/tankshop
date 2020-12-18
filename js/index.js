@@ -25,3 +25,17 @@ $(".filter").mouseleave(function(){
 })
 
 // Page Top Link Behaviour in Section Icons
+
+$(".section-title").mouseenter(function(){
+	$(this).children(".section-icon").css("visibility","hidden")
+	$(this).children(".up-link").css("display","inline")
+})
+
+$(".section-title").mouseleave(function(){
+	$(this).children(".up-link").css("display","none")
+	$(this).children(".section-icon").css("visibility","visible")
+})
+
+$(".up-link").click(function(){
+	$(window).scrollTop(0);
+})
